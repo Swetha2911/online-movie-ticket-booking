@@ -54,7 +54,7 @@ class BookTicket:
         
         	if self.l[self.user_row-1][self.user_seat-1]=='S':
         	    if (answer=='Yes' or answer=='yes'):
-        	        self.user()2
+        	        self.user()
         	        self.l[self.user_row-1][self.user_seat-1]='B'
         	        self.userlist[self.user_row-1][self.user_seat-1]={'name':self.name,'gender':self.gender,'age':self.age,'phone':self.phone}
         	        print("Your Ticket is booked")
